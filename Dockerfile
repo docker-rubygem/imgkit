@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=1.3.9
+ENV VERSION=1.4.0
 
 RUN gem install imgkit --version ${VERSION} --no-format-exec
 
